@@ -1,0 +1,8 @@
+{
+  "name": "AI Nexus - The Ultimate AI Directory",
+  "description": "A comprehensive, beautifully categorized directory of mainstream AI applications across creation, art, video, research, and more.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
