@@ -11,6 +11,7 @@ export const CATEGORIES_CONFIG = [
   { type: CategoryType.VOICE, icon: '🎙️', color: 'from-indigo-500 to-blue-400' },
   { type: CategoryType.PUZZLE, icon: '🧩', color: 'from-lime-500 to-green-400' },
   { type: CategoryType.ROBOTICS, icon: '🤖', color: 'from-slate-500 to-gray-400' },
+  { type: CategoryType.DEVELOPMENT, icon: '🧪', color: 'from-blue-500 to-indigo-400' },
 ];
 
 export const AI_TOOLS: AITool[] = [
@@ -51,4 +52,5 @@ export const AI_TOOLS: AITool[] = [
   { id: 'figure', name: 'Figure AI', description: 'Creating the world\'s first commercially viable humanoid robot.', category: CategoryType.ROBOTICS, url: 'https://figure.ai', icon: 'https://picsum.photos/id/160/200/200', tags: ['humanoid', 'future'] },
   { id: 'tesla-optimus', name: 'Tesla Optimus', description: 'General-purpose, bi-pedal, humanoid robot by Tesla.', category: CategoryType.ROBOTICS, url: 'https://tesla.com/optimus', icon: 'https://picsum.photos/id/170/200/200', tags: ['robotics', 'tesla'] },
   { id: 'boston-dynamics', name: 'Boston Dynamics', description: 'Pushing the boundaries of what robots can do.', category: CategoryType.ROBOTICS, url: 'https://bostondynamics.com', icon: 'https://picsum.photos/id/180/200/200', tags: ['atlas', 'spot'] },
+  {"id": "agent-qa", "name": "agent-qa", "description": "Natural-language web/mobile QA with persistent memory, validated self-improvement, and step/screenshot evidence.", "category": CategoryType.DEVELOPMENT, "url": "https://vostride.com", "icon": "https://vostride.com/brand/vostride-pixel-icon-192.png", "tags": ["QA", "memory", "self-improving"]},
 ];

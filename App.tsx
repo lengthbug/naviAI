@@ -22,7 +22,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-950 flex flex-col md:flex-row">
       {/* Sidebar - Desktop */}
-      <aside className="w-full md:w-72 glass-panel border-r border-slate-800 flex flex-col sticky top-0 md:h-screen z-20">
+      <aside className="w-full md:w-72 glass-panel border-r border-slate-800 flex flex-col md:sticky md:top-0 md:h-screen z-20">
         <div className="p-8">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center font-bold text-2xl shadow-lg shadow-blue-500/20">

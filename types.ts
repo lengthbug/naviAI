@@ -7,7 +7,8 @@ export enum CategoryType {
   ANIMATION = "动画类",
   VOICE = "语音类",
   PUZZLE = "益智类",
-  ROBOTICS = "机器人类"
+  ROBOTICS = "机器人类",
+  DEVELOPMENT = "开发与测试"
 }
 
 export interface AITool {
